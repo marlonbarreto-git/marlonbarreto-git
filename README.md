@@ -35,11 +35,11 @@ My name is Marlon, if you prefer you can call me Marliton, I was born on planet 
 
 ## 📈 Github Stats
 
-[![Marliton's GitHub Stats](https://github-readme-stats.vercel.app/api?username=marlonbarreto-zulu&count_private=true&show_icons=true&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-zulu)
+[![Marliton's GitHub Stats](https://github-readme-stats.vercel.app/api?username=marlonbarreto-git&count_private=true&show_icons=true&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-git)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=marlonbarreto-zulu&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-zulu)
+[![GitHub Streak](https://streak-stats.demolab.com?user=marlonbarreto-git&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-git)
 
-[![Marliton's GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=marlonbarreto-zulu&layout=compact&count_private=true&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-zulu)
+[![Marliton's GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=marlonbarreto-git&layout=compact&count_private=true&theme=monokai&hide_border=true&border_radius=10)](https://github.com/marlonbarreto-git)
 
 ## 🏆 GitHub Trophies
-[![Marliton's Github Trophies](https://github-profile-trophy.vercel.app/?username=marlonbarreto-zulu&theme=monokai&no-frame=false&no-bg=false&margin-w=4)](https://github.com/marlonbarreto-zulu)
+[![Marliton's Github Trophies](https://github-profile-trophy.vercel.app/?username=marlonbarreto-git&theme=monokai&no-frame=false&no-bg=false&margin-w=4)](https://github.com/marlonbarreto-git)
