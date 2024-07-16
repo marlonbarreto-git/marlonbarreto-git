@@ -1,7 +1,7 @@
 ## Hi Guys 🖖🏽
 My name is Marlon, if you prefer you can call me Marliton, I was born on planet Earth (Bogotá DC, Colombia 🇨🇴).
 
-- 🔭 I’m currently working as Software Engineer.
+- 🔭 I’m currently working as Sr Software Engineer.
 - 🤗 I’m currently learning to program and trying to be 1% better every day.
 - 🎧 I like rock, jazz, blues and maybe some Dua Lipa. 🎶
 
