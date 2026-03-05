@@ -24,6 +24,10 @@ jobs:
           plugin_notable_types: pull_request
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
+          plugin_notable_filter: stars:>50
+          repositories_skipped: |
+            yuno-payments/*
+            DataLucyAI/*
           config_display: large
           config_output: svg
           config_timezone: America/Bogota
