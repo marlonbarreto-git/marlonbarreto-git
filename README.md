@@ -26,7 +26,7 @@
 
 ---
 
-<details>
+<details open>
 <summary>📊 Stats</summary>
 <br>
 
