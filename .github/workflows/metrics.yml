@@ -1,0 +1,69 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 6 * * 0" # Weekly on Sunday at 6 AM UTC
+  workflow_dispatch: # Manual trigger
+  push:
+    branches: [main, feat/metrics-profile]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Notable contributions — merged PRs in external repos
+      - name: Notable Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/notable.svg
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: pull_request
+          plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
+          plugin_notable_filter: stars:>50
+          repositories_skipped: |
+            yuno-payments/*
+            DataLucyAI/*
+          config_display: large
+          config_output: svg
+          config_timezone: America/Bogota
+
+      # General stats + activity
+      - name: General
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/general.svg
+          base: header, activity, community, repositories
+          base_indepth: yes
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: pull_request, issue, release
+          plugin_activity_visibility: public
+          config_display: large
+          config_output: svg
+          config_timezone: America/Bogota
+
+      # Languages
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout_repositories: 10
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          config_display: large
+          config_output: svg
+          config_timezone: America/Bogota
