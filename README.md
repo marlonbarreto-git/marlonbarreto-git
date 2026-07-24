@@ -30,17 +30,13 @@
 <summary>📊 Stats</summary>
 <br>
 
-![General](assets/general.svg)
+![GitHub Stats](https://github-helpers.creativecode.com.co/api/stats?username=marlonbarreto-git&theme=cyberpunk&locale=es)
 
-![Languages](assets/languages.svg)
+![Lenguajes más usados](https://github-helpers.creativecode.com.co/api/languages?username=marlonbarreto-git&theme=cyberpunk&locale=es)
 
-</details>
+![Racha de Contribuciones](https://github-helpers.creativecode.com.co/api/streak?username=marlonbarreto-git&theme=cyberpunk&locale=es)
 
-<details open>
-<summary>🌍 Open Source Contributions</summary>
-<br>
-
-![Notable Contributions](assets/notable.svg)
+![Trofeos de GitHub](https://github-helpers.creativecode.com.co/api/trophies?username=marlonbarreto-git&theme=cyberpunk&locale=es)
 
 </details>
 
